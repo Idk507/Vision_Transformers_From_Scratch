@@ -82,17 +82,22 @@ Feed-forward network with GELU activation.
 # Example Output
 
 Here is an example of the output you might see during training and testing:
-
+```
 
 Training:   0%|          | 0/5 [00:00<?, ?it/s]
+
 Epoch 1 in training:   0%|          | 0/469 [00:00<?, ?it/s]
+
 ...
 Epoch 1 loss: 0.0298
 ...
 Epoch 5 loss: 0.0183
-testing: 100%|██████████| 79/79 [00:00<00:00, 92.01it/s]
-Test loss: 0.0180
-Accuracy: 0.9932
 
+testing: 100%|██████████| 79/79 [00:00<00:00, 92.01it/s]
+
+Test loss: 0.0180
+
+Accuracy: 0.9932
+```
 # Acknowledgements
 This implementation is inspired by the Vision Transformer paper and adapted for educational purposes to demonstrate the basic concepts.
